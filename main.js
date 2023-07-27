@@ -79,7 +79,7 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                 if (num1 === resultadoSuma){
                     alert("¡Muy bien! 96 + 23 = " + resultadoSuma);
                 }else{
-                    alert("Incorrecto. La respuesta correcta es" + resultadoSuma);
+                    alert("Incorrecto. La respuesta correcta es " + resultadoSuma);
                 }
                 break;
 
@@ -117,7 +117,7 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                     if (num3 === resultadoDivision){
                         alert("¡Muy bien! 45 / 20 =" + resultadoDivision);
                     }else{
-                        alert("Incorrecto. La respuesta es" + resultadoDivision);
+                        alert("Incorrecto. La respuesta es " + resultadoDivision);
                     }
                     break;
                 
@@ -136,7 +136,7 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                     if (num4 === resultadoMultiplicacion){
                         alert("¡Muy bien! 95 * 18 = " + resultadoMultiplicacion);
                     }else{
-                        alert("Incorrecto. La respuesta correcta es" + resultadoMultiplicacion);
+                        alert("Incorrecto. La respuesta correcta es " + resultadoMultiplicacion);
                     }
                     break;
 
