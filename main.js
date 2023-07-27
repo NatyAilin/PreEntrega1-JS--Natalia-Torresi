@@ -92,7 +92,7 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                         return resultado;
                     }
 
-                    let num2 = parseInt(prompt("¿Cuánto es 123 - 52"));
+                    let num2 = parseInt(prompt("¿Cuánto es 123 - 52?"));
                     let resultadoResta = resta(123, 52);
 
                     if (num2 === resultadoResta){
@@ -111,7 +111,7 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                         return resultado;
                     }
 
-                    let num3 = parseInt(prompt("¿Cuánto es 34 / 78"));
+                    let num3 = parseInt(prompt("¿Cuánto es 34 / 78?"));
                     let resultadoDivision = dividir(34, 78);
 
                     if (num3 === resultadoDivision){
