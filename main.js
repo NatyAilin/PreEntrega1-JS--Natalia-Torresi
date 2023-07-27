@@ -111,11 +111,11 @@ let ayuda = prompt("¿Me ayudas a resolver los siguientes problmeas? Si o No");
                         return resultado;
                     }
 
-                    let num3 = parseInt(prompt("¿Cuánto es 34 / 78?"));
-                    let resultadoDivision = dividir(34, 78);
+                    let num3 = parseInt(prompt("¿Cuánto es 45 / 20?"));
+                    let resultadoDivision = dividir(45, 20);
 
                     if (num3 === resultadoDivision){
-                        alert("¡Muy bien! 34 / 78 =" + resultadoDivision);
+                        alert("¡Muy bien! 45 / 20 =" + resultadoDivision);
                     }else{
                         alert("Incorrecto. La respuesta es" + resultadoDivision);
                     }
